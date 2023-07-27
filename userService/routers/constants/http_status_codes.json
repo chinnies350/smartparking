@@ -1,0 +1,62 @@
+{
+    "NullMsg": {
+        "statusCode": 0,
+        "response": "Please Provide all the details"
+    },
+    "AddMsg": {
+        "statusCode": 1,
+        "response": "Data Added Successfully"
+    },
+    "updateMsg": {
+        "statusCode": 1,
+        "response": "Data Updated Successfully"
+    },
+    "deleteMsg": {
+        "statusCode": 1,
+        "response": "Deleted successfully"
+    },
+    "EmailSend": {
+        "statusCode": 1,
+        "response": "Email Sended successfully"
+    },
+    "SmsSend": {
+        "statusCode": 1,
+        "response": "Sms Sended successfully"
+    },
+    "OTP": {
+        "statusCode": 1,
+        "response": "OTP Sended successfully"
+    },
+    "NotFound": {
+        "statusCode": 0,
+        "response": "No Data Found"
+    },
+    "NotAdd": {
+        "statusCode": 0,
+        "response": "Data not inserted"
+    },
+    "NotUpdate": {
+        "statusCode": 0,
+        "response": "Data not Updated"
+    },
+    "NotDelete": {
+        "statusCode": 0,
+        "response": "Data Not Deleted"
+    },
+    "deactiveMsg": {
+        "statusCode": 1,
+        "response": "Deactivated successfully"
+    },
+    "ActiveMsg": {
+        "statusCode": 1,
+        "response": "Activated successfully"
+    },
+    "expired": {
+        "statusCode": 0,
+        "response": "validity expired"
+    },
+    "IncrtPassword": {
+        "statusCode": 0,
+        "response": "Incorrect Username or Password"
+    }
+}

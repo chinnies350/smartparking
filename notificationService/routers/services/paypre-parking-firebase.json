@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "paypre-parking",
+    "private_key_id": "6b535c9c67a9ce072eff6fe7cf1b7d73d4313c58",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCa3vvglzzM7M3H\n7YRlwAVEqVcycsywVkXGn4yWtLdDBwY4BRpgMeqJ7EanyZ0EXW9T3l59HloZAnEl\n3KK8b4D7iqTyEkdv0/D6Jh4VnVrHXBLpRgu/YRKsWTxBD69Verle9WTc4+tb30yn\nu9CeuySYt1EVV2hOjtwZm3hM8N6lW5Y9SPx3I+hzo4h3A++Ut2XfqbnACiCUden/\nO8z94y6JctC4ybOoQogB3dgUt4RF63JD7lCFq/EHh556cHvbGs6SwdenJfd2gtkT\neA/nVtYlWG7sNLNgx5EF3N97cjvnpSxV6yWrY/bzdN6327W4F8ipXipkr8Ekrq2N\n/XhT47NRAgMBAAECggEABVra2pxJb4cBGFh8YgByli9k8CiTbrCe+JllRQPnjHIN\nMJ7u4hRbw8GCEb9j1jCtCU6jKwBDioGWJrezKfY7ihxe7BlTyRhgPiVXAormhoXm\nx/7XvWTBKT6BJI6YUrRGfakZFUECucegmNyilSMgpptREAk4i7MpcFpliEMxrvCM\nLZ/JNox05FRy85l0jcOSyUy36YxjEzCnlmFF5Ygtu3ssxz/87jo1L+TXl3a8ZWGA\n+JRDQA4j13JITMYRe6OMfaTBis+xW2SQXrSEn8/m/W/8OqdDWTD6+KoWJgd4kUKU\nrjnDZc/GESuWoXmK4oTiRAf4+qpZ4cASfwQjiqJteQKBgQDS3qYCZRZaK60A2iPw\nmCq5vyfSuT0ZEREBIl3I70ZaG5T+xl3W3vsStzs7ZRwbzips+nvhxYdDlT09rsSb\nryyQ8zUz/lp37O4KLBK5re5RQpOaJ+ogN2CGRmRDhkkf6wsmaoF60yHyZUQcXXW0\nqIOCbnaOtc58f7722lA++7XIOQKBgQC8BDhvH7LfvBfOUsL0SmMfAYT/1hJA2iUl\n04U7EE2sGBfjBhADrk40LM/ZhRtI+RS58Z4YzJeQLnqgixW+feqtRk+eMjVnpL3B\nKVZXFgV6lME+h+YpPIrb/6pzfbdsufbU9pbY2VcKJjD4TyDzmJf7/4BdSISY5WRs\nhVVVnPbT2QKBgDK8DwUUfUREreM+mNcSRXVbYKF6oBCf4o97TUVDDJIxgK+r2ngQ\nPihKnZ20vgaSm/KMcbHobJr+FTX6DqPGidp2KZ7Q28Nu5fbck8TI7EXw1sKIR/Ro\nXnjwBr+YV4+uZYhgp7Z9hfVkF/cbJW7J/JotKak8ZOnfcnrCG/yLYzlBAoGBAKGm\nF0cjP80wkF8ptMgH9LTBv7GeQc9UPsAI3fFsEPu3M0JTAg3IHSCqroFb+ZuB25oK\n7Fxx+pVSAMhrDGTdKZmUa/udO2FCuIqMmdkB6+/6WTMD8JTfopuHcusc2Uk3kcqD\nwCnsovLs5wl2LuSA+5sDjz+ki6xQ/Uh4UmfrLiPxAoGACsTqJxf892CDMN2w7qyN\nVCsQGoY8zlaRZ8DzS97PAztYxjysESZv1bEESAu4u7dgGOoZxiPLgFLCDIUdcC6o\nRPTQJZ6uHOpD/fUkv1MlT2XkP2ZfYCH4IgWcrQneErLsWwfYvTbipd3CAa8RvH/i\nopR9C64IB7UQHIImBt+HY+4=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-72syl@paypre-parking.iam.gserviceaccount.com",
+    "client_id": "102980838137767263298",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-72syl%40paypre-parking.iam.gserviceaccount.com"
+}

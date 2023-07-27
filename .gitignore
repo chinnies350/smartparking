@@ -1,0 +1,10 @@
+adminService\.env
+booking\.env
+notificationService\.env
+offerService\.env
+parkingOwnerService\.env
+parkingPassModule\.env
+subscriptionService\.env
+slotService\.env
+userService\.env
+

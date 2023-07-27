@@ -1,0 +1,46 @@
+version: '3'
+services:
+  booking_api:
+    build: ./booking
+    container_name: booking_api
+    command: uvicorn app:app --host 0.0.0.0 --port 80
+    ports:
+      - 5011:80
+    # volumes:
+    #   - ./booking:/code
+  booking_celery_worker:
+    container_name: booking_celery_worker
+    build: ./booking
+    command: celery -A task worker --loglevel=info
+    depends_on:
+      - booking_api
+
+  slot_management_api:
+    build: ./slotManagement
+    container_name: slot_management_api
+    command: uvicorn app:app --host 0.0.0.0 --port 80
+    ports:
+      - 5012:80
+
+  slot_management_event_consumer:
+    container_name: slot_management_event_consumer
+    build: ./slotManagement
+    command: python3 event_consumer.py
+    depends_on:
+      - slot_management_api
+
+  api_gateway:
+    build: ./apiGateway
+    container_name: api_gateway
+    environment:
+      - BOOKING_URL=booking_api
+    ports:
+      - 5010:5000
+    depends_on:
+      - booking_api
+      - slot_management_api
+  
+    # volumes:
+    #   - ./booking:/code
+    # ports:
+    #   - "8080:8080"
